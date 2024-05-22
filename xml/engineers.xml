@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEngineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>100000000</Id>
+    <Email>Smith@gmail.com</Email>
+    <Cost>100</Cost>
+    <Name>Smith</Name>
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>100000002</Id>
+    <Email>Williams@gmail.com</Email>
+    <Cost>300</Cost>
+    <Name>Williams</Name>
+    <Level>Advanced</Level>
+  </Engineer>
+  <Engineer>
+    <Id>100000003</Id>
+    <Email>Brown@gmail.com</Email>
+    <Cost>400</Cost>
+    <Name>Brown</Name>
+    <Level>Intermediate</Level>
+  </Engineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>100000001</Id>
+    <Email>Johnson@gmail.com</Email>
+    <Cost>200</Cost>
+    <Name>Johnson</Name>
+    <Level>AdvancedBeginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>100000004</Id>
+    <Email>Jones@gmail.com</Email>
+    <Cost>500</Cost>
+    <Name>Jones</Name>
+    <Level>Expert</Level>
+  </Engineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+  <Engineer>
+    <Id>0</Id>
+    <Email />
+    <Cost>0</Cost>
+    <Name />
+    <Level>Beginner</Level>
+  </Engineer>
+</ArrayOfEngineer>

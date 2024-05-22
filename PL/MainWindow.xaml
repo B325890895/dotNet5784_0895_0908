@@ -1,0 +1,29 @@
+﻿<Window x:Class="PL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--open engineer list-->
+        <!--<Button Height="20" Width="100" Margin="98,328,602,86" Content="Engineer List" Click="Open_Engineer_List"/>
+        <Button Height="20" Width="100" Margin="350,328,350,86" Content="Reset DB" Click="Reset_DB" />-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label x:Name="welcomeText" Content="Lets make our team work together!" Grid.Column="1" HorizontalAlignment="Center" Height="40" Margin="10,41,0,136" FontSize="15"/>
+        <Label x:Name="winTogether" Content="בעז'ה ביחד ננצח" Margin="63,109,0,67" HorizontalAlignment="Left" FontSize="20" Grid.Column="1"/>
+        <Button x:Name="btnResetDBWindow" Content="RESETDB" Grid.Row="1" HorizontalAlignment="Center" Height="31" VerticalAlignment="Top" Width="149" Margin="0,91,0,0" Click="Reset_DB"/>
+        <Button x:Name="btnEngineersWindow" Content="ENGINEER" Grid.Row="1" HorizontalAlignment="Center" Height="31" VerticalAlignment="Top" Width="148" Grid.Column="1" Margin="0,89,0,0" Click="Open_Engineer_List"/>
+        <Button x:Name="btnInitDbWindow" Content="INITDB" Grid.Row="1" HorizontalAlignment="Center" Height="31" VerticalAlignment="Top" Width="148" Grid.Column="2" Margin="0,88,0,0" Click="Init_DB"/>
+    </Grid>
+   
+</Window>
