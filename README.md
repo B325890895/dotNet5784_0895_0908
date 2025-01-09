@@ -1,5 +1,5 @@
 Application including UI with a layered architecture
-
+created by Batya Blau and Yael Glick
 Technologies: C#, .NET
 
 Description: 
